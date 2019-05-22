@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+.slider-container {
+    width: 70%;
+    margin: 20px auto;
+    padding: 10px;
+    background: white;
+    border: solid 2px black;
+    height: 65%;
+}
+
+.slide-img {
+    width: auto;
+
+}
+
+
+
+
+@media (min-width: 360px){
+  .slider-container {
+      width: 100%;
+      height: 40%;
+}
+
+@media (min-width: 1200px){
+  .slider-container {
+      width: 70%;
+      height: 65%;
+}

@@ -1,0 +1,275 @@
+<!DOCTYPE>
+<html lang="en" dir="ltr">
+  <head>
+        <meta charset="utf-8">
+        <title>Lover Peluches</title>
+        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="nivo-slider/css/nivo-slider.css">
+        <link rel="stylesheet" href="nivo-slider/css/mi-slider.css">
+        <!-- <link rel="stylesheet" href="themes/bar/bar.css"> -->
+
+        <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+        <script src="nivo-slider/js/jquery.nivo.slider.js" charset="utf-8"></script>
+
+        <script type="text/javascript">
+            $(window).on('load', function() {
+                $('#slider').nivoSlider();
+            });
+        </script>
+
+
+  </head>
+  <body>
+    <!-- <div class="slider-wrapper theme-bar"> -->
+    <div class="slider-wrapper theme-mi-slider" id="mi-slider">
+
+          <div id="slider" class="nivoSlider">
+              <img src="nivo-slider/img/P1.jpg" alt="" title="#htmlcaption1"/>
+              <img src="nivo-slider/img/P2.jpg" alt="" title="#htmlcaption2" />
+              <img src="nivo-slider/img/P3.jpg" alt="" title="#htmlcaption3" />
+          </div>
+          <div id="htmlcaption1" class="nivo-html-caption">
+              <h1>Bienvenidos</h1>
+          </div>
+          <div id="htmlcaption2" class="nivo-html-caption">
+              <h1>Disfruten nuestros productos</h1>
+          </div>
+          <div id="htmlcaption3" class="nivo-html-caption">
+              <h1>Gracias por visitarnos</h1>
+          </div>
+    </div>
+
+    <header>
+      <nav class="navegation">
+        <ul class="menu">
+          <li>
+            <a id="inicio-menu" href="#">
+              <img src="img/home.png" alt="">
+            </a>
+          </li>
+          <li>
+            <a id="nosotros-menu" href="#">NOSOTROS</a>
+          </li>
+          <li>
+            <a id="productos-menu" href="#">PRODUCTOS</a>
+          </li>
+          <li>
+            <a id="contacto-menu" href="#">CONTACTO</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <div class="inicio" id="inicio-datos">
+
+         <div class="ini-post">
+           <p>Sorteo Lover:</p>
+           <img src="img/foto1.jpg" alt="">
+         </div>
+
+         <div class="ini-post">
+           <p>Stand 1:</p>
+           <img src="img/foto2.jpg" alt="">
+         </div>
+
+         <div class="ini-post">
+           <p>Stand 2: </p>
+           <img src="img/foto3.jpg" alt="">
+         </div>
+
+         <div class="ini-post">
+           <p>Stand 3: </p>
+           <img src="img/foto4.jpg" alt="">
+         </div>
+    </div>
+
+    <div class="nosotros" id="nosotros-datos">
+
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+
+    </div>
+
+    <div class="contacto" id="contacto-datos">
+      <form class="sarasa" method="post">
+    			<h1>Formulario de contacto</h1> <br><br>
+    			<label>
+    				Nombre:
+    				<input type="text" name="userName">
+    				<span class="error"></span>
+    			</label>
+    			<br><br>
+    			<label>
+            Apellido:
+    				<input type="text" name="userLastName">
+    				<span class="error"></span>
+    			</label>
+          <br><br>
+          <label>
+            Mail:
+            <input type="Mail" name="mail">
+            <span class="error"></span>
+          </label>
+
+    			<br><br>
+    			<label>
+    				País:
+    				<select name="country">
+    					<option value="NADA">Elegí</option>
+    					<option value="Ar" selected>Argentina</option>
+    					<option value="Co">Colombia</option>
+    					<option value="Uy">Uruguay</option>
+              <option value="Br">Brazil</option>
+    				</select>
+    			</label>
+    			<br><br>
+          <label>
+            <textarea class="caja-texto" name="comment" rows="8" cols="80" title="Comentarios">
+            </textarea>
+            <br>
+            <input class="boton-form" type=image src="img/bt-azul.png" title="Enviar">
+            <span class="error"></span>
+          </label>
+    		</form>
+
+    </div>
+
+    <div class="productos" id="productos-datos">
+      <ul class="submenu">
+        <li><a href="#" id="em">Emoticones</a></li>
+        <li><a href="#" id="pf">Peluches Fierreros</a></li>
+        <li>
+          <a id="almohadones" href="#">Almohadones</a>
+              <ul class="submenu2" id="submenu2">
+                <li>
+                  <a href="#">Infantiles</a>
+                </li>
+                <li>
+                  <a href="#">Escudos de Futbol</a>
+                </li>
+                <li>
+                  <a href="#">Logos de Autos</a>
+                </li>
+                <li>
+                  <a href="#">Romanticos</a>
+                </li>
+                <li>
+                  <a href="#">Personalizados</a>
+                </li>
+              </ul>
+        </li>
+        <li><a href="#">Bordados en general</a></li>
+        <li><a href="#">Varios</a></li>
+      </ul>
+
+    </div>
+
+    <div class="cont-emoticones" id="contem">
+
+        <a href="#1" id="contaimg" class="cont-a">
+          <img id="imga" src="img/Productos/EMOTICONES/32.jpg" alt="" title=""/>
+          <!-- <div id="p1" class="precio">
+              <h1>$100</h1>
+          </div> -->
+        </a>
+
+        <a href="#2" id="contaimg2">
+          <img id="imga2" src="img/Productos/EMOTICONES/34.jpg" alt="" title="" />
+        </a>
+
+        <a href="#3" id="contaimg3">
+          <img id="imga3" src="img/Productos/EMOTICONES/35.jpg" alt="" title="" />
+        </a>
+
+        <a href="#4" id="contaimg4">
+          <img id="imga4" src="img/Productos/EMOTICONES/36.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#5" id="contaimg5">
+          <img id="imga5" src="img/Productos/EMOTICONES/37.jpg" alt="" title="" />
+        </a>
+    </div>
+
+    <div class="cont-pf" id="contpf">
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/27.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/29.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/30.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/38.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/39.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/40.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/41.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/42.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/43.jpg" alt="" title=""/>
+        </a>
+
+        <a href="#" id="contaimg">
+          <img src="img/Productos/PELUCHES-FIERREROS/44.jpg" alt="" title=""/>
+        </a>
+
+
+    </div>
+
+    <footer>
+      <div class="footer" id="footer">
+          <ul class="redes">
+            <li>
+              <a href="https://www.facebook.com/LoverPeluches/" title="Facebook"><img src="img/facebook.png" alt=""></a>
+            </li>
+            <li>
+              <a href="https://www.instagram.com/tienda.lover/" title="Instagram"><img src="img/instagram.png" alt=""></a>
+            </li>
+            <li>
+              <a href="#" title="Twiter"><img src="img/twitter.png" alt=""></a>
+            </li>
+            <li>
+              <a href="https://perfil.mercadolibre.com.ar/TIENDA.LOVER" title="MercadoLibre"><img src="img/mercadolibre.png" alt=""></a>
+            </li>
+            <li>
+              <a href="#contacto-menu" id="mail" title="Contacto"><img src="img/gmail.png" alt=""></a>
+            </li>
+          </ul>
+          <p>© 2019 LoverPeluches. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/mi-scripts.js"></script>
+
+  </body>
+
+</html>

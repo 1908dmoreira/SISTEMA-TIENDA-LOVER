@@ -1,0 +1,657 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+
+}
+body{
+  background: url("../img/fondonaranja.jpg") no-repeat center center;
+  background-size:100% 100%;
+}
+
+.navegation {
+  clear:both;
+  width: 100%;
+  background: rgb(0, 18, 255);
+  z-index: 2;
+
+}
+
+.navegation ul{
+  list-style:none;
+  text-align: center;
+  padding: 1px;
+}
+
+.menu{
+    border-bottom: solid 2px rgb(0, 0, 0);
+    margin: 0;
+}
+
+.menu > li{
+  position: relative;
+  display: inline-block;
+  /* margin: 0 35px; */
+  border-right: solid 1px rgb(0, 0, 0);
+  /* border-left:  solid 1px rgb(0, 0, 0); */
+}
+
+.menu > li > a{
+  display: block;
+  padding: 2px 20px;
+  color: rgb(255, 255, 255);
+  font-family: sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu li a:hover{
+  color: #CE7D35;
+  transition: all .3s;
+}
+
+.imgcab{
+  width:100%;
+  height: 60px;
+}
+
+.img-add{
+  margin-left: 20px;
+}
+
+
+.ini-post img{
+
+  width: 300px;
+  height: 250px;
+  margin-left: 40%;
+}
+
+.ini-post p{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+/* footer */
+
+.footer{
+  clear: both;
+  background: rgb(255, 255, 255);
+  border-top: solid 2px rgb(0, 0, 0);
+  position:fixed;
+  left:0px;
+  right: 0px;
+  bottom:0px;
+  width:100%;
+  z-index:3;
+}
+
+.footer ul{
+  text-align: center;
+  margin: 0;
+}
+
+.footer p{
+   text-align: center;
+   color: rgb(80, 80, 80);
+   font-style: italic;
+   font-size: 10px;
+   font-family: sans-serif;
+   margin: 0;
+}
+
+.redes > li {
+  display:inline-block;
+  text-align: center;
+  margin: 5px 15px;
+}
+
+.whatsapp {
+  position: fixed;
+  /* background: rgb(255, 255, 255);
+  border: solid 1px rgb(142, 142, 142);
+  border-radius: 36%; */
+  width: 16%;
+  /* height: 6%; */
+  right: 0px;
+  margin: 15px;
+  bottom: 60px;
+  z-index: 4;
+  opacity: 0.6;
+}
+
+.whatsapp p{
+  text-align: center;
+  /* margin-top: 3px; */
+  margin-left: 15px;
+  font-size: 10px;
+
+}
+
+.whatsapp:hover{
+  opacity: 0.6;
+}
+
+.ul-img-whatsapp{
+  position: relative;
+}
+
+.li-img-whatsapp {
+  display: inline-block;
+  margin: 2px 0;
+  width: 100%;
+}
+
+
+.btn-verde{
+  background-image: url(../img/fondoboton.jpg);
+    text-align: center;
+    font-style: italic;
+    width: 100%;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 10px 6px -6px #777;
+    -moz-box-shadow: 0 10px 6px -6px #777;
+    box-shadow: 0 10px 6px -6px #777;
+    font-weight: bold;
+}
+
+.btn-verde:hover{
+  color: rgb(20, 0, 255);
+  transition: 1s;
+}
+
+/* --------------------paginacion -------------------------------------*/
+.container-pagination{
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  width: 10%
+}
+
+.imgpag{
+  display: inline;
+  background: rgb(187, 187, 187);
+  width: 100%;
+  text-align: center;
+  font-size: 15px;
+  /* margin: 2px; */
+  /* padding: 5%; */
+  border: solid 1px rgb(41, 40, 40);
+}
+
+.disabled{
+  margin: 0;
+}
+
+.ppp{
+  display: flex;
+  width: 100%;
+  margin: 0;
+}
+
+
+/* -------------------------------------------------------------------- */
+
+.
+
+/*  emoticones */
+
+.cont-emoticones{
+  display: none;
+  margin-left: 210px;
+  /* margin-right: 15px; */
+  height: -webkit-fill-available;
+  width: 90%;
+}
+
+.container{
+  display: none;
+  padding: 10px 10px 15px 10px;
+  margin: 10px;
+  background: rgb(250, 250, 250);
+  border-radius: 10px;
+  border: solid 1px rgb(125, 125, 125);
+  float: left;
+  /* width: 20%; */
+}
+
+.cont-img > img{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+/* .cont-emoticones >a:hover{ */
+.comt-img >img:hover{
+  opacity: 0.5;
+}
+
+
+/* ---------------------- categoria pf ------------------------------------- */
+.cont-pf{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-pf > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-pf >a:hover{
+  opacity: 0.5;
+}
+
+.cont-pf > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria pf ------------------------------------- */
+.cont-autos{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-autos > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-autos >a:hover{
+  opacity: 0.5;
+}
+
+.cont-autos > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Personalizados ------------------------------------- */
+.cont-pers{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-pers > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-pers >a:hover{
+  opacity: 0.5;
+}
+
+.cont-pers > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Futbol ------------------------------------- */
+.cont-futbol{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-futbol > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-futbol >a:hover{
+  opacity: 0.5;
+}
+
+.cont-futbol > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Infantiles ------------------------------------- */
+.cont-infant{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-infant > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-infant >a:hover{
+  opacity: 0.5;
+}
+
+.cont-infant > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Romanticos ------------------------------------- */
+.cont-roman{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-roman > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-roman >a:hover{
+  opacity: 0.5;
+}
+
+.cont-roman > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Bordados ------------------------------------- */
+.cont-borda{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-borda > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-borda >a:hover{
+  opacity: 0.5;
+}
+
+.cont-borda > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Varios ------------------------------------- */
+.cont-varios{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-varios > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-varios >a:hover{
+  opacity: 0.5;
+}
+
+.cont-varios > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Fundas ------------------------------------- */
+.cont-fundas{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-fundas > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-fundas >a:hover{
+  opacity: 0.5;
+}
+
+.cont-fundas > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+/* ---------------------- categoria Percheros ------------------------------------- */
+.cont-perch{
+  display: none;
+  margin-left: 210px;
+}
+
+.cont-perch > a{
+  -webkit-transition-property: opacity;
+  transition-property: opacity;
+}
+
+.cont-perch >a:hover{
+  opacity: 0.5;
+}
+
+.cont-perch > a > img{
+  width: 18%;
+  height: 170px;
+  /* margin: 10px 10px 10px 60px; */
+}
+
+/*-----------------------------------------------------------------  */
+
+
+.img-thumbnail2 {
+    padding: .25rem;
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    border-radius: .25rem;
+    max-width: 100%;
+    WIDTH: 150%;
+    z-index: 1;
+}
+
+/* media querys moviles */
+
+@media (min-width: 360px){
+
+  .menu > li > a {
+      font-size: 35px;
+
+  }
+
+  .menu > li > a > img{
+      width: 32px;
+      height: 32px;
+  }
+
+  .container{
+    width: 40%;
+    height: 28%;
+  }
+
+  h6{
+    font-size: 2rem;
+  }
+
+  .img-thumbnail2 {
+    height: 200PX;
+  }
+
+  .btn-verde {
+    height: 22%;
+    font-size: 40px;
+  }
+
+  .cont-emoticones {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-pf {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-autos {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-pers {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-futbol {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-infant {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-roman {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-borda {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-varios {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-fundas {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .cont-perch {
+    margin-left: 10%;
+    margin-right: -5%;
+  }
+
+  .whatsapp {
+    opacity: 1;
+  }
+
+  .ul-img-whatsapp{
+    text-align: right;
+  }
+
+  .img-whatsapp{
+    width:64px;
+    height:64px;
+  }
+
+  .ul-img-whatsapp > li > a {
+    text-align: center;
+  }
+
+  .ul-img-whatsapp > li > a > p{
+    font-size: 18px;
+  }
+
+  .img-redes{
+    margin: 5%;
+    width:64px;
+    height:64px;
+  }
+
+  footer{
+    display: none;
+  }
+
+  .p-consulta{
+    display: none
+  }
+
+
+}
+
+
+@media (min-width: 1200px){
+
+  .menu > li > a {
+      font-size: 12px;
+
+  }
+
+  .menu > li > a > img{
+      width: 18px;
+      height: 18px;
+  }
+
+  .container{
+    width: 18%;
+    height: inherit;
+  }
+
+  h6{
+    font-size: 1rem;
+  }
+
+  .img-thumbnail2 {
+    height: 150PX;
+  }
+
+  .btn-verde {
+    height: 30px;
+    font-size: 18px;
+  }
+
+  .img-whatsapp{
+    width:32px;
+    height:32px;
+  }
+
+  .ul-img-whatsapp{
+    text-align: center;
+  }
+
+  .ul-img-whatsapp > li > a > p{
+    font-size: 14px;
+  }
+
+  .img-redes{
+    display: none;
+  }
+
+  footer{
+    display: block;
+  }
+
+  .p-consulta{
+    display: block;
+  }
+
+}

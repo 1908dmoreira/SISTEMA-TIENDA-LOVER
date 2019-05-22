@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+      <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+      <!-- <script  src = "https://code.jquery.com/jquery-2.1.4.min.js"></script> -->
+      <script src="js/jquery-3.3.1.min.js" charset="utf-8"></script>
+      <script  src = "js/zoomify.min.js " ></script>
+      <link  href = "css/zoomify.min.css"  rel = " hoja de estilo " >
+
+  </head>
+  <body>
+        <img class="img-responsive img-thumbnail zoomify" src="img/Productos/AL-AUTOS/12.jpg" alt="">
+        <img class="img-responsive img-thumbnail zoomify" src="img/Productos/AL-AUTOS/31.jpg" alt="">
+
+        <script>
+          $('.zoomify').zoomify(); // Default settings
+        </script>
+  </body>
+</html>
