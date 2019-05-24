@@ -19,7 +19,7 @@ if ($_POST) {
 
  ?>
 <!DOCTYPE>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
     <meta charset="utf-8">
     <title>Lover Peluches</title>

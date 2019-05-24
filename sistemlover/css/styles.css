@@ -168,6 +168,7 @@ body{
 
 /* --------------------paginacion -------------------------------------*/
 .container-pagination{
+  display: none;
   position: absolute;
   top: 95%;
   left: 50%;
@@ -612,7 +613,7 @@ body{
   }
 
   .container{
-    width: 18%;
+    width: 16%;
     height: inherit;
   }
 

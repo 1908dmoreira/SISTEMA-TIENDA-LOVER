@@ -1,5 +1,5 @@
 <!DOCTYPE>
-<html lang="en" dir="ltr">
+<html lang="es" dir="ltr">
   <head>
         <meta charset="utf-8">
         <title>Lover Peluches</title>
@@ -146,8 +146,6 @@
                   </form>
 
                 </div>
-
-
           <?php
               }
             }
@@ -158,7 +156,7 @@
                 <ul class="ppp">
                   <li class="imgpag"><a href="#">&laquo;</a></li>
                   <?php
-                    $numero = 5;
+                    $numero = 10;
                     $pagina = 1;
                     for($i=0;$i<$contador;$i++){
                       if($i%$numero==0){ ?>
@@ -211,7 +209,8 @@
 
       </div>
       <?php
-          }
+
+         }
         }
         $dirint->close();
       ?>
@@ -220,7 +219,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -281,7 +280,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -342,7 +341,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -403,7 +402,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -464,7 +463,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -525,7 +524,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -586,7 +585,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -647,7 +646,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -708,7 +707,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -730,7 +729,7 @@
         $directory="img/Productos/PERCHEROS";
         $dirint = dir($directory);
         $contador = 0;
-        $alias = 'pe';
+        $alias = 'pr';
         while (($archivo = $dirint->read()) !== false)
         {
           if (eregi("gif", $archivo) || eregi("jpg", $archivo) || eregi("png", $archivo)){
@@ -769,7 +768,7 @@
             <ul class="ppp">
               <li class="imgpag"><a href="#">&laquo;</a></li>
               <?php
-                $numero = 5;
+                $numero = 10;
                 $pagina = 1;
                 for($i=0;$i<$contador;$i++){
                   if($i%$numero==0){ ?>
@@ -829,12 +828,14 @@
           // console.log(numreg);
           // console.log(codreg);
           // console.log($(this).attr('id'));
-          tot = Number(numreg) + 5;
+          tot = Number(numreg) + 10;
 
 
           for (var i = numreg; i < tot; i++) {
             divview = document.getElementById(codreg+i);
+            if (divview!=null){
               divview.style.display = 'block';
+            }
           }
         });
   </script>
